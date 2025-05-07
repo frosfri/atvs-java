@@ -1,0 +1,18 @@
+package luiz.java02;
+import java.util.Scanner;
+
+public class estrutura {
+    
+    
+    public void estrutura (){
+        Scanner teclado = new Scanner (System.in);
+        System.out.println("Entre com um numero inteiro positivo");
+        int numero = teclado.nextInt();
+        long fatorial = 1;
+        while (numero >0){
+            fatorial *= numero--;
+        }
+        System.out.println("o fatorial desse numero e:");
+    }
+}
+    
