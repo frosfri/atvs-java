@@ -1,0 +1,23 @@
+package luiz.java02;
+import java.util.Scanner;
+
+
+public class dowhile {
+
+    public static void main (String[] args)
+    {
+        Scanner teclado = new Scanner(System.in);
+        System.out.println("Entre com um numero positivo");
+        int numero = teclado.nextInt();
+        
+        long fatorial = 1;
+        do{
+    fatorial *= numero--;
+   
+    }while (numero > 0);
+        System.out.println("o fatorial desse numero e " + fatorial);
+    }    
+    
+}
+
+
