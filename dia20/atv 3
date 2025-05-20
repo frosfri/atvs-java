@@ -1,0 +1,18 @@
+
+package luiz05;
+import java.util.Scanner;
+public class conta_normal {
+    
+     public static void conta_normal(String[] args) {
+
+		Scanner a = new Scanner (System.in);
+		System.out.println("digite o valor do carro ");
+		double s=a.nextDouble();
+		double d= (s * 0.28);
+		double h= s*0.45;
+		double k = s+d+h;
+		System.out.println("O valor do carro vai ser de R$"+k);
+	}
+
+}
+    
