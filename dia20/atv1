@@ -1,0 +1,54 @@
+package luiz05;
+import java.util.Scanner;
+public class seila {
+   
+    public static void seila(String[] args) {
+        
+        Scanner a = new Scanner(System.in);
+        System.out.println("escreva o numero 1");
+        int s = a.nextInt();
+        
+         
+        System.out.println("escreva o numero 2");
+        int d = a.nextInt();
+        
+        if (s == d) {
+            System.out.println("o valor 1 e igual");
+        } else {
+            System.out.println("o valor 2 e diferente");
+        }
+        
+        
+     if (s <= d) {
+            System.out.println("o valor 1 nao e igual");
+        } else {
+            System.out.println("o valor 2 e igual");
+        }
+        
+     if (s >= d) {
+            System.out.println("o valor 1 nao e igual");
+        } else {
+            System.out.println("o valor 2 e igual");
+        }
+        
+        if (s < d) {
+            System.out.println("o valor 1 e menor");
+        } else {
+            System.out.println("o valor 2 e maior");
+        }
+        
+        if (s > d) {
+            System.out.println("o valor 1 e maior");
+        } else {
+            System.out.println("o valor 2 e menor");
+        }
+        
+        
+        
+        
+        
+    }
+    
+    
+    
+}
