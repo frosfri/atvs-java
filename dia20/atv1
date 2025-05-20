@@ -13,22 +13,15 @@ public class seila {
         int d = a.nextInt();
         
         if (s == d) {
-            System.out.println("o valor 1 e igual");
+            System.out.println("os valores sao iguais");
         } else {
-            System.out.println("o valor 2 e diferente");
-        }
-        
-        
-     if (s <= d) {
-            System.out.println("o valor 1 nao e igual");
-        } else {
-            System.out.println("o valor 2 e igual");
+            System.out.println("os valores sao diferentes");
         }
         
      if (s >= d) {
-            System.out.println("o valor 1 nao e igual");
+            System.out.println("o valor 1 e maior");
         } else {
-            System.out.println("o valor 2 e igual");
+            System.out.println("o valor 2 e menor");
         }
         
         if (s < d) {
@@ -37,12 +30,7 @@ public class seila {
             System.out.println("o valor 2 e maior");
         }
         
-        if (s > d) {
-            System.out.println("o valor 1 e maior");
-        } else {
-            System.out.println("o valor 2 e menor");
-        }
-        
+       
         
         
         
