@@ -1,0 +1,24 @@
+package luiz05;
+import java.util.Scanner;
+public class conta_vip {
+    public static void as(String[] args) {
+	
+		Scanner a = new Scanner (System.in);
+		System.out.println("digite o valor ");
+		int s=a.nextInt();
+		
+switch (s) {
+
+case 1: System.out.println("O valor e de um");
+break;
+case 2: System.out.println("O valor e de dois");
+break;
+case 3: System.out.println("O valor e de três");
+break;
+default: System.out.println("O valor e imvalido");
+
+
+
+}}}
+
+
