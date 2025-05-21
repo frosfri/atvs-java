@@ -1,1 +1,19 @@
+package luiz06;
+import java.util.Scanner;
+public class circulo {
 
+   static void as(String[] args) {
+       Scanner s = new Scanner (System.in);
+
+       System.out.println("digite o raio do circulo");
+Double d = s.nextDouble();        
+ Double e = 3.14;
+ Double w = 2*(d*e);
+ 
+       System.out.println("o diametro do circulo e de -->"+w);
+       
+ 
+       
+    }
+    
+}
