@@ -1,6 +1,6 @@
 package luiz05;
 import java.util.Scanner;
-public class conta_vip {
+public class seila3 {
     public static void as(String[] args) {
 	
 		Scanner a = new Scanner (System.in);
