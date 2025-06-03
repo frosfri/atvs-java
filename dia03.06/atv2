@@ -1,0 +1,14 @@
+System.out.println("Escreva o Valor A");
+//     Double valorA = scanner.nextDouble();
+
+//     System.out.println("Escreva o Valor B ");
+//     double valorB = scanner.nextDouble();
+
+//     double valorC;
+
+//     if (valorA == valorB) {
+//       valorC = valorA + valorB;
+// } else {
+//       valorC = valorA * valorB;
+// }
+//     System.out.println("O valor de c é :" + valorC);
