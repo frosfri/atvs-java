@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner a = new Scanner(System.in);
+
+        System.out.println("Qual seu nome");
+        String nome = a.nextLine();
+
+        System.out.println("Qual seu sexo/sefor mulher digite 'F'");
+        String sexo = a.nextLine();
+
+        System.out.println("Qual seu estado civil/se for casada digite'CASADA'");
+        String estadoCivil = a.nextLine();
+
+        if (sexo.equals("F") && estadoCivil.equals("CASADA")) {
+            System.out.println("Há quantos anos você está casada?");
+            int tempoCasada = a.nextInt();
+                 
+            System.out.println("Sexo: " + sexo);
+            System.out.println("Estado Civil: " + estadoCivil);
+            System.out.println("Você está casada há " + tempoCasada + " anos.");
+
+    }
+       
+
+        }
+    }
+
