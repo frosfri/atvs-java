@@ -2,24 +2,23 @@ package luiz_java;
 
 import java.util.Scanner;
 
-public class Medico {
+public class Paciente {
 
 public static Scanner entrada = new Scanner(System.in);
-	
-public static String [] nomeMedico = new String [255], especialidadeMedico = new String [255];
-public static int numeroMedicos = 0;
 
+public static String[] nomePaciente = new String [255], cpfPaciente = new String [255];
+public static int numeroPacientes = 0;
 
-	public static void cadastrarMedico() {
-		System.out.println("Nome do médico:");
-        nomeMedico[numeroMedicos] = entrada.nextLine();
+	public static void cadastrarPaciente() {
+		
+		System.out.println("Nome do paciente:");
+        nomePaciente[numeroPacientes] = entrada.nextLine();
 
-        System.out.println("Especialidade:");
-        especialidadeMedico[numeroMedicos] = entrada.nextLine();
-
-        numeroMedicos ++;
-        System.out.println("Médico cadastrado!");
+        System.out.println("CPF:");
+        cpfPaciente[numeroPacientes] = entrada.nextLine();
+        numeroPacientes ++;
         
+        System.out.println("Paciente cadastrado.");
         Main.main(null);
 	}
 }
