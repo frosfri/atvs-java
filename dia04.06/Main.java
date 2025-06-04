@@ -35,6 +35,8 @@ public static Scanner entrada = new Scanner(System.in);
             case 5:
                 System.out.println("Sistema encerrado.");
                 System.exit(0);
+                    default : 
+                   System.out.println("valor invalido.");
             }
        }
    }
