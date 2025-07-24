@@ -1,12 +1,19 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-
-/**
- *
- * @author Aluno
- */
+import java.util.Scanner;
 public class negativos {
     
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int negativos = 0;
+
+        for (int i = 0; i < 10; i++) {
+            double valor = input.nextDouble();
+            if (valor < 0) {
+                negativos++;
+            }
+        }
+
+        System.out.println(negativos);
+    }
 }
+
+
